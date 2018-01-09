@@ -28,11 +28,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 …or create a new repository on the command line
 echo "# testvue" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git remote add origin https://github.com/xjh1230/testvue.git
-# git push -u origin master
+## git init
+## git add *
+## git commit -m "first commit"
+## git remote add origin https://github.com/xjh1230/testvue.git
+## git push -u origin master
 
 …or push an existing repository from the command line
 git remote add origin https://github.com/xjh1230/testvue.git
