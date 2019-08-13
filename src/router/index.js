@@ -11,6 +11,8 @@ import step2 from '@/views/stepTest/step2'
 import step3 from '@/views/stepTest/step3'
 import step4 from '@/views/stepTest/step4'
 
+import mForm from '@/views/mform'
+
 import productMange from '@/views/productManage/list.vue'
 
 Vue.use(Router)
@@ -26,6 +28,7 @@ export default new Router({
             { path: '/activePublic', name: 'activePublic', meta: '活动列表', component: activePublic },
             { path: '/activeManage', name: 'activeManage', meta: '活动详情', component: activeManage },
             { path: '/productMange', name: 'productMange', meta: '产品管理', component: productMange },
+            { path: '/mForm', name: 'mForm', meta: 'mForm', component: mForm },
             {
                 path: '/stepIndex',
                 name: 'index',

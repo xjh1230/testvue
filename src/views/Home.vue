@@ -119,10 +119,16 @@ export default {
                     icon: 'fa fa-bars',
                     index: '/stepIndex',
                     title: '步骤条设置'
-                }, {
+                }, 
+                {
                     icon: 'fa fa-bars',
                     index: '/productMange',
                     title: '产品管理'
+                },
+                  {
+                    icon: 'fa fa-bars',
+                    index: '/mForm',
+                    title: '测试'
                 },
             ]
         }

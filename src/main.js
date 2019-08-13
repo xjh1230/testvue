@@ -8,7 +8,7 @@ import store from './store'
 // const Element=()=>import('element-ui')
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import 'font-awesome/css/font-awesome.min.css'
+// import 'font-awesome/css/font-awesome.min.css'
 Vue.use(Element)
 
 
